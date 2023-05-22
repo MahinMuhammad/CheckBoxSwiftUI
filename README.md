@@ -1,4 +1,4 @@
-# CheckBox-SwiftUI
+#CheckBox-SwiftUI
 
 CheckBox-SwiftUI is a custom checkbox package for SwiftUI. It provides a simple and customizable checkbox view 
 that is missing in the native SwiftUI framework. The package utilizes SF Symbols to represent the checkbox states and 
@@ -6,13 +6,17 @@ offers options to customize the checkbox appearance.
 
 If you like the project, please do not forget to star ★ this repository and follow me on GitHub.
 
+##Preview
+
+![preview of checkbox](/Graphics/CheckBoxDemo.gif) 
+
 ##Requirements
 *iOS 13.0+
 *Xcode 11.2+
 *Swift 5.0
 *SwiftUI framework
 
-## Features
+##Features
 
 * Customizable checkbox view for SwiftUI.
 * Uses SF Symbols for checkbox states.
@@ -34,7 +38,7 @@ Follow these steps to integrate the package into your project:
 6. Wait till Xcode varify and fetch it for you.
 7. Click "Add Package".
 
-## Usage
+##Usage
 
 To use CheckBox-SwiftUI in your SwiftUI project, follow these steps:
 
