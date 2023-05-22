@@ -32,7 +32,7 @@ You can add CheckBox-SwiftUI as a dependency in your Swift Package Manager-enabl
 Follow these steps to integrate the package into your project:
 
 1. In Xcode, go to "File" -> "Add Packages...".
-2. Enter the URL of this repository: https://github.com/MahinMuhammad/CheckBox-SwiftUI
+2. Enter the URL of this repository: https://github.com/MahinMuhammad/CheckBoxSwiftUI
 3. Choose the desired version rule.
 4. Chosse the target where you want to add the package.
 5. Click "Add Package".
