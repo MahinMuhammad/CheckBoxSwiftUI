@@ -4,19 +4,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "CheckBox-SwiftUI",
+    name: "CheckBoxSwiftUI",
     platforms: [
-        .iOS(.v15)
+        .iOS(.v13)
     ],
     products: [
         .library(
-            name: "CheckBox-SwiftUI",
-            targets: ["CheckBox-SwiftUI"]),
+            name: "CheckBoxSwiftUI",
+            targets: ["CheckBoxSwiftUI"]),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "CheckBox-SwiftUI",
+            name: "CheckBoxSwiftUI",
             dependencies: [])
     ]
 )
