@@ -2,12 +2,19 @@ import SwiftUI
 
 public struct CheckBox: View {
     @Binding var isChecked:Bool
-    @State var title:String
-    @State var checkBoxColor: Color?
-    @State var titleColor: Color?
+    var title:String?
+    var checkBoxColor: Color?
+    var titleColor: Color?
     
-    private var uncheckedSymbolName = "square"
-    private var checkedSymbolName = "checkmark.square.fill"
+    var uncheckedSymbolName = "square"
+    var checkedSymbolName = "checkmark.square.fill"
+    
+    public init(isChecked: Binding<Bool>, title: String? = nil, checkBoxColor: Color? = nil, titleColor: Color? = nil) {
+        self._isChecked = isChecked
+        self.title = title
+        self.checkBoxColor = checkBoxColor
+        self.titleColor = titleColor
+    }
     
     public var body: some View {
         HStack {
@@ -19,7 +26,7 @@ public struct CheckBox: View {
             .imageScale(.large)
             .foregroundColor(checkBoxColor ?? Color(.gray))
             
-            Text(title)
+            Text(title ?? "")
                 .foregroundColor(titleColor ?? Color(UIColor.label))
         }
     }
