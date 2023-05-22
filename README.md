@@ -1,4 +1,4 @@
-#CheckBox-SwiftUI
+# CheckBox-SwiftUI
 
 CheckBox-SwiftUI is a custom checkbox package for SwiftUI. It provides a simple and customizable checkbox view 
 that is missing in the native SwiftUI framework. The package utilizes SF Symbols to represent the checkbox states and 
@@ -6,26 +6,27 @@ offers options to customize the checkbox appearance.
 
 If you like the project, please do not forget to star ★ this repository and follow me on GitHub.
 
-##Preview
+## Preview
 
 ![preview of checkbox](/Graphics/CheckBoxDemo.gif) 
 
-##Requirements
+## Requirements
+
 *iOS 13.0+
 *Xcode 11.2+
 *Swift 5.0
 *SwiftUI framework
 
-##Features
+## Features
 
 * Customizable checkbox view for SwiftUI.
 * Uses SF Symbols for checkbox states.
 * Supports toggling the checkbox state.
 * Optional customization of checkbox color and title color.
 
-##Installation
+## Installation
 
-###**Swift Package Manager**
+### **Swift Package Manager**
 
 You can add CheckBox-SwiftUI as a dependency in your Swift Package Manager-enabled project. 
 Follow these steps to integrate the package into your project:
@@ -38,7 +39,7 @@ Follow these steps to integrate the package into your project:
 6. Wait till Xcode varify and fetch it for you.
 7. Click "Add Package".
 
-##Usage
+## Usage
 
 To use CheckBox-SwiftUI in your SwiftUI project, follow these steps:
 
@@ -61,7 +62,7 @@ CheckBox(isChecked: $isChecked, title: "Click on this checkbox")
 ```swift
 CheckBox(isChecked: $isChecked, title: "Checkbox", checkBoxColor: .blue, titleColor: .black)
 ```
-##Integration into a complete but simple code:
+## Integration into a complete but simple code:
 
 ```swift
 import SwiftUI
@@ -80,12 +81,13 @@ struct ContentView: View {
 
 ```
 
-##Author
+## Author
 
 Md. Mahinur Rahman, iOS Developer
 rahmanmahin@icloud.com
 
-##Find Me on:
+## Find Me on:
+
 [FaceBook](https://web.facebook.com/mahin5muhammad)
 [Instagram](https://www.instagram.com/mahin5muhammad/)
 [LinkedIn](https://www.linkedin.com/in/rahmanmahin/)
@@ -94,15 +96,15 @@ rahmanmahin@icloud.com
 [Discord](http://discordapp.com/users/Ghost_Friday#2625)
 
 
-##Contributing
+## Contributing
 
 Contributions to CheckBox-SwiftUI are welcome! If you encounter any issues or have ideas for improvements, 
 please feel free to open an issue or submit a pull request.
 
-##Feedback
+## Feedback
 
 Please feel free to open any [issue](https://github.com/MahinMuhammad/CheckBoxSwiftUI/issues)
 
-##License
+## License
 
 CheckBox-SwiftUI is available under the MIT License. See the LICENSE file for more information.
